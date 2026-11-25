@@ -24,6 +24,6 @@
 		{ "tag": "v1", "new_sqlite_classes": ["Registry", "UserHub"] }
 	],
 	// OAuth 的客户端、授权和令牌。不写 id，部署时由 Cloudflare 自动创建
-	"kv_namespaces": [{ "binding": "OAUTH_KV" , "id": "01d5eb12265b45d6a895e552f2e47ffd"}],
-	"r2_buckets": [{"binding": "TRANSFER_FILES"}]
+	"kv_namespaces": [{ "binding": "OAUTH_KV" }],
+	"r2_buckets": [{ "binding": "TRANSFER_FILES" }]
 }
