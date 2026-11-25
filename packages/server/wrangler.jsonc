@@ -25,5 +25,5 @@
 	],
 	// OAuth 的客户端、授权和令牌。不写 id，部署时由 Cloudflare 自动创建
 	"kv_namespaces": [{ "binding": "OAUTH_KV" }],
-	"r2_buckets": [{ "binding": "TRANSFER_FILES" }]
+	"r2_buckets": [{"binding": "TRANSFER_FILES","bucket_name": "pi-bridge-transfer-files"}]
 }
